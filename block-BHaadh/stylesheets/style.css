@@ -281,10 +281,13 @@ body {
   transition-property: transform, -webkit-transform;
 }
 
+.inner-box2:hover {
+  cursor: pointer;
+}
+
 .inner-box2:hover .cube {
   -webkit-transform: translateZ(-100px) rotateY(90deg);
           transform: translateZ(-100px) rotateY(90deg);
-  cursor: pointer;
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;
